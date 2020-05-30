@@ -26,7 +26,7 @@ function Footer() {
 						<li><a href="#">HomePod</a></li>
 						<li><a href="#">iPod touch</a></li>
 						<li><a href="#">Accessories</a></li>
-						<li><a href="#">Gift Cards</a></li>
+						<li><a href="#">Gift Cards</a></li>					
 					</ul>    		
 	    	</div>
 	    	<div class="col-sm-12 col-m-4 col-lg-3">

@@ -31,7 +31,20 @@ body {
 	padding: 0;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  	color: #fff;
+    position: relative;
+    z-index: -1;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 .navbar-brand {
   padding: 0;
