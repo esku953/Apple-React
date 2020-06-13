@@ -1,18 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
-import './css/bootstrap.css';
-import './css/styles.css';
-import Nav from './Componenets/Nav/Nav.js'
-import Footer from './Componenets/Footer/Footer.js'
-import Main from './Componenets/Main/Main.js'
-function App() {
-  return (
-  	<div>
-		  	<Nav />
-		  	<Main />
-		  	<Footer />
-  	</div>
-  );
+
+import Nav from './Components/Nav/Nav'
+import Footer from './Components/Footer/Footer'
+import Main from './Components/Main/Main'
+
+
+
+import './App.css';
+
+class App extends Component {
+	render(){
+	  return (
+	    <div>
+	      <Nav /> 
+	      <Main /> 
+	      <Footer /> 
+	    </div>
+	  )		
+	}
+
 }
 
-export default App;
+export default App
